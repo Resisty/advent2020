@@ -53,7 +53,7 @@ function maximum() {
   local element
   for element
   do
-    [[ -n "${min}" ]] || max=${element}
+    [[ -n "${max}" ]] || max=${element}
     (( ${element} > max )) && max=${element}
   done
 }
